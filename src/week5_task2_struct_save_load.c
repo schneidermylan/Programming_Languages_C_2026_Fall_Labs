@@ -1,5 +1,5 @@
 // week5_task2_struct_save_load.c
-// Name: Mylan  Surname: SCHNEIDER  Student ID: 260ADB179
+// Name: Mylan Surname: SCHNEIDER  Student ID: 260ADB179
 //
 // Task 2: Save and load structured records from a file
 // Week 5 – Files & Modular Programming
