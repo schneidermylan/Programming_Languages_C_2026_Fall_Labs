@@ -187,9 +187,7 @@ void add_student(Student arr[], int *count) {
         printf("Invalid input. Student not added.\n");
         return;
     }
-
-    strncpy(arr[*count].name, name_buf, NAME_LEN - 1);
-    arr[*count].name[NAME_LEN - 1] = '\0';
+    snprintf(arr[*count].name, NAME_LEN, "%s", name_buf);
     arr[*count].id = (int)id_val;
     arr[*count].gpa = gpa_val;
     (*count)++;
